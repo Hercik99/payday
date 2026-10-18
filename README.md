@@ -13,10 +13,10 @@ Przycisk „Postaw mi kawę” prowadzi już do https://buymeacoffee.com/hercik.
 1. github.com → **New repository** → nazwa np. `finanse` → Public → Create.
 2. **Add file → Upload files** → przeciągnij całą zawartość tego folderu (razem z `img/` i `.nojekyll`) → Commit.
 3. **Settings → Pages** → Source: *Deploy from a branch* → Branch: `main` / `(root)` → Save.
-4. Po 1–2 minutach strona działa pod `https://hercik99.github.io/finanse/`.
+4. Po 1–2 minutach strona działa pod `https://TWOJ-LOGIN.github.io/finanse/`.
 
 ## 3. Adresy do App Store Connect
-- Privacy Policy URL: `https://hercik99.github.io/finanse/privacy.html`
-- Regulamin (EULA, opcjonalnie): `https://hercik99.github.io/finanse/terms.html`
-- Support URL: `https://hercik99.github.io/finanse/support.html`
-- Marketing URL (opcjonalnie): `https://hercik99.github.io/finanse/`
+- Privacy Policy URL: `https://TWOJ-LOGIN.github.io/finanse/privacy.html`
+- Regulamin (EULA, opcjonalnie): `https://TWOJ-LOGIN.github.io/finanse/terms.html`
+- Support URL: `https://TWOJ-LOGIN.github.io/finanse/support.html`
+- Marketing URL (opcjonalnie): `https://TWOJ-LOGIN.github.io/finanse/`

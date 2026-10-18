@@ -44,7 +44,7 @@ html[lang=pl] [data-l=en],html[lang=en] [data-l=pl]{display:none!important}
 <h2>Kopie zapasowe</h2>
 <p>Funkcje „Zapisz kopię JSON” i „Zapisz kopię z hasłem” tworzą plik, który zapisujesz w wybranym przez siebie miejscu. Aplikacja trzyma też kopię danych w swoim folderze na telefonie, żeby nie zginęły, gdy iOS zwalnia miejsce; ten folder może trafić do kopii iPhone’a w iCloud, jeśli masz ją włączoną. Nic nie jest wysyłane do twórcy aplikacji.</p>
 <h2>Kontakt</h2>
-<p>W sprawach prywatności: <b><a href="mailto:adrianhert7@outlook.com">adrianhert7@outlook.com</a></b></p>
+<p>W sprawach prywatności: <b><a href="mailto:{{EMAIL}}">{{EMAIL}}</a></b></p>
 </div><div data-l="en">
 <h1>Payday – privacy policy</h1>
 <p><b>Last updated:</b> 18 October 2026</p>
@@ -55,9 +55,9 @@ html[lang=pl] [data-l=en],html[lang=en] [data-l=pl]{display:none!important}
 <p><b>Household shared budget (optional):</b> stored in your private iCloud (Apple CloudKit) and shared only with people you invite via an iCloud link. The developer has no access to it, and you can stop sharing at any time.</p>
 <p><b>Backups:</b> JSON and password-protected backups are files you save wherever you choose. The app also keeps a copy of your data in its own folder on the device so it survives iOS storage cleanup; that folder may be included in your iPhone's iCloud backup if enabled. Nothing is sent to the developer.</p>
 <p><b>Deleting data:</b> Settings → Data → “Delete all data”, or simply delete the app.</p>
-<p>Contact: <b><a href="mailto:adrianhert7@outlook.com">adrianhert7@outlook.com</a></b></p>
+<p>Contact: <b><a href="mailto:{{EMAIL}}">{{EMAIL}}</a></b></p>
 </div>
-<footer><span data-l="pl">© 2026 Payday · Dane zostają w Twoim telefonie.</span><span data-l="en">© 2026 Payday · Your data stays on your phone.</span> · <a href="mailto:adrianhert7@outlook.com">adrianhert7@outlook.com</a></footer></div><script>
+<footer><span data-l="pl">© 2026 Payday · Dane zostają w Twoim telefonie.</span><span data-l="en">© 2026 Payday · Your data stays on your phone.</span> · <a href="mailto:{{EMAIL}}">{{EMAIL}}</a></footer></div><script>
 (function(){var q=new URLSearchParams(location.search).get('lang');var l=q||((navigator.language||'pl').slice(0,2)==='pl'?'pl':'en');
 try{l=q||localStorage.getItem('fl')||l}catch(e){}
 function set(x){document.documentElement.lang=x;document.querySelectorAll('.lang button').forEach(function(b){b.classList.toggle('on',b.dataset.x===x)});try{localStorage.setItem('fl',x)}catch(e){}}
