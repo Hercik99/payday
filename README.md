@@ -1,4 +1,4 @@
-# Strona Finanse (GitHub Pages)
+# Strona Payday (GitHub Pages)
 
 Strona zawiera stronę główną (`index.html`), pomoc (`support.html`) i politykę prywatności (`privacy.html`) w wersjach PL i EN, z jasnym i ciemnym motywem.
 
